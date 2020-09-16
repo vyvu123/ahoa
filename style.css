@@ -1,7 +1,7 @@
 @font-face {
-    font-family: 'Conv_UTM Neo Sans Intel';
-    src: url('fonts/UTM Neo Sans Intel.eot');
-    src: url('fonts/UTM Neo Sans Intel.woff') format('woff'), url('fonts/UTM Neo Sans Intel.ttf') format('truetype'), url('fonts/UTM Neo Sans Intel.svg') format('svg');
+    font-family: 'Cambria';
+    src: url('fonts/Cambria.eot');
+    src: url('fonts/Cambria.eot?#iefix') format('embedded-opentype'), url('fonts/Cambria.svg#Cambria') format('svg'), url('fonts/Cambria.ttf') format('truetype'), url('fonts/Cambria.woff') format('woff'), url('fonts/Cambria.woff2') format('woff2');
     font-weight: normal;
     font-style: normal;
 }
@@ -14,26 +14,8 @@
 }
 
 @font-face {
-    font-family: 'cambriab';
-    src: url('fonts/cambriab.eot');
-    src: url('fonts/cambriab.eot?#iefix') format('embedded-opentype'), url('fonts/cambriab.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'cambria';
-    src: url('fonts/cambria.eot');
-    src: url('fonts/cambria.eot?#iefix') format('embedded-opentype'), url('fonts/cambria.woff2') format('woff2');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'Cambria-Italic';
-    src: url('fonts/Cambria-Italic.svg#Cambria-Italic') format('svg'), url('fonts/Cambria-Italic.ttf') format('truetype'), url('fonts/Cambria-Italic.woff') format('woff');
-    src: url('Cambria Italic.eot');
-    src: url('fonts/Cambria Italic.eot?#iefix') format('embedded-opentype'), url('fonts/Cambria Italic.woff2') format('woff2');
+    font-family: 'UTMNeoSansIntel';
+    src: url('fonts/UTMNeoSansIntel.svg#UTMNeoSansIntel') format('svg'), url('fonts/UTMNeoSansIntel.ttf') format('truetype'), url('Ufonts/TMNeoSansIntel.woff') format('woff');
     font-weight: normal;
     font-style: normal;
 }
@@ -69,6 +51,7 @@ ul {
 
 body {
     overflow-x: hidden;
+    color: #383838;
 }
 
 .header {
@@ -117,7 +100,7 @@ img {
 }
 
 .header h1 {
-    font-family: 'Conv_UTM Neo Sans Intel';
+    font-family: 'UTMNeoSansIntel';
     font-size: 57px;
     font-weight: bold;
     color: #e54144;
@@ -138,6 +121,7 @@ img {
     text-align: center;
     position: relative;
     margin-top: -25px;
+    font-weight: bold;
 }
 
 .qoute {
@@ -152,7 +136,7 @@ img {
 
 .intro {
     font-size: 60px;
-    font-family: 'cambria';
+    font-family: 'Cambria';
     text-align: center;
     margin-bottom: 100px;
 }
@@ -167,12 +151,12 @@ img {
 }
 
 .bottom-header .intro {
-    font-family: 'Cambria-Italic';
+    font-family: 'Cambria';
     font-style: italic;
 }
 
 .main-content h1 {
-    font-family: 'Conv_UTM Neo Sans Intel';
+    font-family: 'UTMNeoSansIntel';
     font-size: 100px;
     color: #e54144;
     text-align: center;
@@ -224,6 +208,7 @@ img {
     font-family: 'Cambria-Bold';
     width: 100%;
     padding-top: 50px;
+    font-weight: bold;
 }
 
 .img-3 .container {
@@ -234,7 +219,7 @@ img {
 }
 
 .img-3 .author {
-    font-family: 'Conv_UTM Neo Sans Intel';
+    font-family: 'UTMNeoSansIntel';
     font-size: 51px;
     color: #e54144;
     font-weight: bold;
@@ -243,7 +228,7 @@ img {
 
 .img-3 .note {
     font-size: 30px;
-    font-family: 'Conv_UTM Neo Sans Intel';
+    font-family: 'UTMNeoSansIntel';
 }
 
 .line1,
@@ -496,7 +481,7 @@ img {
     }
 }
 
-@media(max-width:7680px) {
+@media(max-width:768px) {
     .bottom-header {
         padding-top: 50px;
         padding-bottom: 50px;
