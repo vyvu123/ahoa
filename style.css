@@ -395,10 +395,10 @@ img {
 @media (max-width: 1200px) {
     .header h1 {
         max-width: 650px;
-        font-size: 35px;
+        font-size: 3.2vw;
     }
     .header .note {
-        font-size: 40px;
+        font-size: 3vw;
     }
     .main-content h1 {
         font-size: 60px;
@@ -427,7 +427,6 @@ img {
         font-size: 3.2vw;
     }
     .header .note {
-        font-size: 4vw;
         margin-top: 10px;
     }
     .main-content h1 {
