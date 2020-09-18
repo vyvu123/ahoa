@@ -115,12 +115,11 @@ img {
 }
 
 .header .note {
-    font-size: 70px;
+    font-size: 40px;
     font-family: 'Cambria-Bold';
     color: #383838;
     text-align: center;
     position: relative;
-    margin-top: -25px;
     font-weight: bold;
 }
 
@@ -132,6 +131,11 @@ img {
     padding-left: 60px;
     padding-top: 25px;
     display: inline-block;
+}
+
+.header .note .qoute {
+    background-size: 30px auto;
+    padding-left: 30px;
 }
 
 .intro {
@@ -350,9 +354,6 @@ img {
     .header h1 {
         max-width: 750px;
         font-size: 40px;
-    }
-    .header .note {
-        font-size: 55px;
     }
     .intro {
         margin-bottom: 50px;
